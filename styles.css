@@ -84,6 +84,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--blood-2); outli
 }
 .btn--ghost:hover { color: #0b0d10; transform: translateY(-2px); }
 .btn--ghost:hover::before { background: transparent; }
+.btn--merch { color: #0b0d10; background: linear-gradient(180deg, #ffffff, #9aa4b0 48%, #e3e8ed 100%); box-shadow: 0 0 0 2px #8e1a12, 0 0 22px rgba(212,42,30,.55); }
+.btn--merch:hover { transform: translateY(-2px); box-shadow: 0 0 0 2px #d42a1e, 0 0 30px rgba(240,80,58,.75); }
 
 /* ---------- nav ---------- */
 .nav {
